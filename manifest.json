@@ -4,18 +4,18 @@
   "version": "1.0.0.0",
   "description": "Hello Chrome World",
   "icons": {
-    "16": "icon.png",
-    "48": "icon.png",
-    "128": "icon.png"
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
   },
   "action": {
     "default_icon": {
-      "16": "icon.png",
-      "48": "icon.png",
-      "128": "icon.png"
+      "16": "images/icon.png",
+      "24": "images/icon.png",
+      "32": "images/icon.png"
     },
     "default_title": "Timer Extension Action Title",
-    "default_popup": "popup.html"
+    "default_popup": "popup/popup.html"
   },
   "options_page": "options.html",
   "permissions": ["storage", "alarms", "notifications"],
